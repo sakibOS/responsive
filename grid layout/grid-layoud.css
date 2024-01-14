@@ -1,0 +1,11 @@
+.item{
+    border: 1px solid aquamarine;
+}
+.container{
+    display: grid;
+   /* grid-template-columns: 200px 200px 200px 200px 100px;*/
+  /* grid-template-columns: repeat(2,100px) 300px;*/
+  /*grid-template-columns: repeat(5,1fr) 2fr;*/
+  grid-template-columns: 200px 200px 200px;
+  justify-content: center;
+}

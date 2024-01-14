@@ -1,0 +1,39 @@
+.container{
+    border: 2px solid tomato;
+    display: flex;
+    height: 600px;
+    /*justify-content: space-around;
+    align-items: center;
+    flex-direction:row-reverse;*/
+    flex-wrap: wrap;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px dashed red;
+}
+nav a{
+    text-decoration: none;
+    color: yellowgreen;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.login-form{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    border: 1px solid mediumorchid;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px;
+    border: 2px solid magenta;
+}
+.login input{
+    height: 40px;
+}
